@@ -66,6 +66,7 @@ body {
 	transform: scale(1.1);
 }
 
+
 .navbar a {
 	font-size: 1.8rem;
 	color: var(--text-color);
@@ -470,20 +471,23 @@ span {
 	#menu-icon{
 		display:block;
 	}
-	.navbar{
-		position: absolute;
-		top: 100%;
-		right: 0;
-		width: 50%;
-		padding: 1rem 3%;
-		background: var(--second-bg-color);
-		border-bottom-left-radius: 2rem;
-		border-left: 2px solid var(--main-color);
-		border-bottom: 2px solid var(--main-color);
-	}
-	.navbar.active{
-		display:block;
-	}
+
+.navbar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50%;
+    padding: 1rem 3%;
+    background: var(--second-bg-color);
+    border-bottom-left-radius: 2rem;
+    border-left: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+}
+
+.navbar.active {
+    display: block;
+}
 	.navbar a{
 		display:block;
 		font-size: 2rem;
@@ -508,4 +512,13 @@ span {
 	.home-img img{
 		width: 56vw;
 	}
+	.projects-grid {
+		flex-direction: column;
+		align-items: center;
+	}
+	.project-item {
+		margin: 0px 10rem 4rem 10rem;
+		width: auto;
+	}
+
 }
