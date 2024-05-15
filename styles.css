@@ -316,6 +316,7 @@ span {
 
 .project-item {
 	width: 30%;
+	cursor: pointer;
 	background: var(--second-bg-color);
 	border-radius: 1rem;
 	box-shadow: 0 0 15px var(--main-color);
